@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+       rel="stylesheet"
+    />
+</head>
+<style>
+    body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h1 > span{
+    color: red;
+}
+
+.stat{
+    display: flex;
+    height: 450px;
+    width: 80%;
+    gap: 20px;
+    margin-left: 10%;
+}
+
+.stat > div{
+    width: 100%;
+    margin: 0px 10px;
+}
+
+.stat img{
+    width: 80%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 35px;
+    border-radius: 10px;
+} 
+
+h1+img{
+    position: relative;
+    top:-40px;
+    left:51%;
+    width: 100px;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+
+h4{
+    color: rgb(50, 50, 190);
+    margin-left: 20px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
+}
+</style>
+<body>
+    <h1>Masai in <span>News</span></h1>
+    <img src="https://www.masaischool.com/images/new-homepage/yellow-vector.svg" alt="">
+    <div class="stat">
+        <div class="box">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/PR_Article_Prateek_Shukla_Gen_AI_92324e2d6b.jpeg" alt="">
+            <h4>28 Aug 2023</h4>
+            <h3>Empowering Education Through GenAI</h3>
+            <p>In the dynamic landscape of today’s job market, Gen AI plays a significant...</p>
+        </div>
+        <div class="box">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/PR_Thungy_1_420b226e5b.webp" alt="">
+            <h4>05 May 2023</h4>
+            <h3>Masai School targets fivefold revenue growth in three years</h3>
+            <p>Masai School's growth plans indicate that the demand for skilled workers in...</p>
+        </div>
+        <div class="box">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/PR_Thingy_2_f2c52e6fcf.webp" alt="">
+            <h4>25 May 2023</h4>
+            <h3>Beyond Degrees: Embracing Alternative Credentialing and Micro-learning in Tech Recruitment</h3>
+            <p>The enduring presence of alternative credentialing and microlearning indica...</p>
+        </div>
+    </div>
+</body>
+</html>
